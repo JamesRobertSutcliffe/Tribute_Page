@@ -1,0 +1,120 @@
+body {
+    background-color: #FFF2F9;
+    font-family: Helvetica;
+    text-align: center;
+    color: #323232;
+    border-color: #323232;
+    border-width: 5px;
+    border-style: solid;
+    background-color: #FE83C6;
+    padding: 3px;  
+    margin: 10px 10px;
+
+    
+}
+
+
+header {
+    font-family: Impact;
+    text-align: center;
+    background-color: #FA4EAB;
+    font-size: 25px;
+    padding: 0.5px;    
+    position: sticky;
+    top: 0;
+    
+    
+    
+}
+
+footer {
+    font-family: Impact;
+    text-align: center;
+    background-color: #FA4EAB;
+    font-size: 30px;
+    padding: 3px;    
+    margin: 10px 10px;
+      
+}
+h2 {
+    font-size: 30px;
+        text-align: center;
+}
+
+
+h3 {
+    font-style: italic;
+    text-align: center;
+    
+}
+
+.main-body {
+    max-width: 1200px;
+    max-height: auto;
+    display: inline-block;
+    
+    padding: 5px;
+       border-radius: 5px;
+    
+   
+}
+
+.main-body-2 {
+    
+    max-width: 1200px;
+    max-height: auto;
+        display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+
+.fixed-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.fixed-image-2 {
+    
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.thin-red-border {
+    border-color: #FA4EAB;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.final-p{    
+    font-family: Impact;
+    text-align: center;
+    font-size: 30px;
+
+    display: inline-block;
+}  
+
+img:hover {
+    transform: scale(1.02);
+}
+
+h1:hover {
+    transform: scale(1.02);
+}
+a:hover{
+    color: green;
+}
+
+@media (max-height: 800px) {
+    header {
+    font-size: 10px;
+      }
+      body{
+    font-size: 10px;
+      }
+      footer{
+      font-size: 10px;
+      }
+
+}
